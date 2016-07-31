@@ -1,0 +1,32 @@
+{
+  "name": "nativescript-locationservice",
+  "version": "0.0.1",
+  "description": "Service for tracking user location",
+  "main": "locationservice.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "locationservice",
+    "android",
+    "balogun",
+    "philip",
+    "oghenerobo"
+  ],
+  "author": "Balogun Oghenerobo Philip",
+  "license": "Apache-2.0",
+  "bugs": "",
+  "homepage": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

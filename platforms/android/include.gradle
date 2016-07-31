@@ -1,0 +1,15 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptlocationservice" {
+            dimension "nativescriptlocationservice"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-basement:9.2.1'
+    compile 'com.google.android.gms:play-services-location:9.2.1'
+    compile 'com.firebase:geofire:1.1.1'
+    //compile 'com.firebase:firebase-client-jvm:2.4.1'
+}
