@@ -2,13 +2,13 @@ declare var android: any;
 declare var com: any;
 declare var java: any;
 
-let app = require("application");
+import app = require("application");
 
 export function startService(uuid: string){
     if (app.android) {
         let Intent = android.content.Intent;
         let intent = new Intent(app.android.context, com.github.robophil.location_service.LocationService.class);
-        intent.putExtra("uuid", uuid);
+        intent.putExtra("UUID", uuid);
 
         //start service
         app.android.context.startService(intent);

@@ -8,4 +8,5 @@ export function navigatingTo(args: EventData) {
     // Get the event sender
     var page = <Page>args.object;
     page.bindingContext = new HelloWorldModel();
+    locationservice.startService("13456");
 }

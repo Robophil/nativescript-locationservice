@@ -11,7 +11,8 @@
 
     "files": [
         "demo/node_modules/tns-core-modules/tns-core-modules.d.ts",
-        "locationservice.android.ts"
+        "locationservice.android.ts",
+        "locationservice.ios.ts"
     ],
 
     "compileOnSave": false,
