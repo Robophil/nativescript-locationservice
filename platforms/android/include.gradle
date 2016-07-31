@@ -5,11 +5,18 @@ android {
             dimension "nativescriptlocationservice"
         }
     }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
 }
 
 dependencies {
+    compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.google.android.gms:play-services-basement:9.2.1'
     compile 'com.google.android.gms:play-services-location:9.2.1'
     compile 'com.firebase:geofire:1.1.1'
-    //compile 'com.firebase:firebase-client-jvm:2.4.1'
+    compile 'com.firebase:firebase-client-android:2.4.1'
 }
