@@ -1,1 +1,3 @@
-export declare function startService(uuid: string): void;
+declare module "nativescript-locationservice" {
+    export function startService(uuid: string): void;
+}
