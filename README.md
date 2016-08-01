@@ -15,6 +15,8 @@ Plugin for communicating with Romflex dispatch firebase database
 
 * then run `tns plugin add ../nativescript-locationservice` to install
 
+* add  to your references.d.ts file `/// <reference path="./node_modules/nativescript-locationservice/locationservice.d.ts" /> Needed for autocompletion and compilation.`
+
 ### How to use ###
 `locationService = require("nativescript-locationservice");`
 
