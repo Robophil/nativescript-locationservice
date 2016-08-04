@@ -9,13 +9,11 @@ Plugin for communicating with Romflex dispatch firebase database
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
-* place this proect in the same directory right as your nativescript, see example below
-* eg: sample dir listing=> `nativescript-myproject       nativescript-anotherproject       nativescript-locationservice`
 
+* run `npm install https://github.com/Robophil/nativescript-locationservice.git --save` to install
 
-* then run `tns plugin add ../nativescript-locationservice` to install
-
-* add  to your references.d.ts file `/// <reference path="./node_modules/nativescript-locationservice/locationservice.d.ts" /> Needed for autocompletion and compilation.`
+* add  to your references.d.ts file 
+`/// <reference path="./node_modules/nativescript-locationservice/locationservice.d.ts" /> Needed for autocompletion and compilation.`
 
 ### How to use ###
 `locationService = require("nativescript-locationservice");`
