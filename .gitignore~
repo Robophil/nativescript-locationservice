@@ -5,5 +5,4 @@ demo/*.d.ts
 demo/platforms
 demo/node_modules
 demo/hook
-demo
 node_modules
